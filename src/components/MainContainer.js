@@ -16,9 +16,9 @@ const MainContainer = () => {
         setVideos(videos?.items)
     }
   return (
-    <div className={`${isMenuOpen?"":"mx-10 "} overflow-y-auto`}>
-      <div className='overflow-x-auto'>
-      <ButtonsList/>
+    <div className={`${isMenuOpen?"":"mx-10 "} `}>
+      <div className='bg-white overflow-x-auto'>
+        <ButtonsList/>
       </div>
       <div className='overflow-y-auto'>
         <VideoList videos={videos}/>
