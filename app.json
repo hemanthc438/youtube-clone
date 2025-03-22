@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "a80668b5-b0b4-4adb-94ca-62060d5ee3ec"
+      }
+    },
+    "android": {
+      "package": "com.hemanthbolla007.youtubeclone"
+    }
+  }
+}
